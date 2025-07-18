@@ -1,5 +1,5 @@
 class Assignment:
-    def _init_(self, name, category, weight, grade):
+    def __init__(self, name, category, weight, grade):
         #student name
         self.name = name
         #formative or summative
