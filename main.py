@@ -1,5 +1,12 @@
 # main.py
 from input_handler import get_assignment_input
+from calculator import (
+    categorize_assignments,
+    get_total_weight,
+    get_total_weighted_grade,
+    calculate_gpa,
+    determine_pass_fail
+)
 
 def main():
     assignments = []
