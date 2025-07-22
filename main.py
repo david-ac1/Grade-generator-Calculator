@@ -47,7 +47,7 @@ def main():
     print(f"Formative Total: {formative_score:.2f} (Weight: {formative_weight}%)")
     print(f"Summative Total: {summative_score:.2f} (Weight: {summative_weight}%)")
     print(f"Total Weighted Score: {overall_score:.2f} (Total Weight: {total_weight}%)")
-    print(f"GPA (out of 5): {gpa:.2f}")
+    print(f"GPA (out of 5): {gpa:.3f}")
     print(f"Result: {decision}")
 
     # Warnings
