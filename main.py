@@ -30,7 +30,7 @@ def main():
 
     # Normalize GPA based on total weight
     if total_weight > 0:
-        gpa = (overall_score / total_weight) * 5
+        gpa = calculate_gpa(overall_score, total_weight)
     else:
         gpa = 0  # Then no assignments entered
 
